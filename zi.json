@@ -1,0 +1,78 @@
+{
+	"fullName": "Cetti",
+	"name": "zi",
+	"copyright": "Public Domain",
+	"version": "1.0",
+	"description": "Cetti's layout",
+	"singletonKeys": [
+		[ "CapsLock", "AltGr" ],
+		[ "'", "AltGr" ],
+		[ "\\", "AltGr" ],
+		[ "Iso", "Extend" ],
+		[ "/", "Extend" ],
+		[ "[", "Backspace" ],
+		[ "]", "Backspace" ]
+	],
+	"keysWithShiftlevels": [
+		{
+			"shiftlevels": [ "None", "Shift", "AltGr", "Extend" ],
+			"keys": [
+				{ "pos": "Q", "letters": [ "q", "Q", "[", "0" ] },
+				{ "pos": "W", "letters": [ "w", "W", "]", "1" ] },
+				{ "pos": "E", "letters": [ "e", "E", "<", "2" ] },
+				{ "pos": "R", "letters": [ "r", "R", ">", "3" ] },
+				{ "pos": "T", "letters": [ "t", "T", "*", "4" ] },
+				{ "pos": "Y", "letters": [ "y", "Y", "+", "Home" ] },
+				{ "pos": "U", "letters": [ "u", "U", "-", "PageDown" ] },
+				{ "pos": "I", "letters": [ "i", "I", "/", "PageUp" ] },
+				{ "pos": "O", "letters": [ "o", "O", "\\", "End" ] },
+				{ "pos": "P", "letters": [ "p", "P", ";", "Delete" ] },
+				{ "pos": "A", "letters": [ "a", "A", "{", "5" ] },
+				{ "pos": "S", "letters": [ "s", "S", "}", "6" ] },
+				{ "pos": "D", "letters": [ "d", "D", "(", "7" ] },
+				{ "pos": "F", "letters": [ "f", "F", ")", "8" ] },
+				{ "pos": "G", "letters": [ "g", "G", "=", "9" ] },
+				{ "pos": "H", "letters": [ "h", "H", "_", "Left" ] },
+				{ "pos": "J", "letters": [ "j", "J", ".", "Down" ] },
+				{ "pos": "K", "letters": [ "k", "K", ",", "Up" ] },
+				{ "pos": "L", "letters": [ "l", "L", "$", "Right" ] },
+				{ "pos": ";", "letters": [ "æ", "Æ", ":", "Escape" ] },
+				{ "pos": "Z", "letters": [ "z", "Z", "#", "PrintScreen" ] },
+				{ "pos": "X", "letters": [ "x", "X", "|", "Mute" ] },
+				{ "pos": "C", "letters": [ "c", "C", "&", "VolumeDown" ] },
+				{ "pos": "V", "letters": [ "v", "V", "^", "VolumeUp" ] },
+				{ "pos": "B", "letters": [ "b", "B", "%", "PlayPause" ] },
+				{ "pos": "N", "letters": [ "n", "N", "'", "Previous" ] },
+				{ "pos": "M", "letters": [ "m", "M", "\"", "Next" ] },
+				{ "pos": ",", "letters": [ "ø", "Ø", "!", "BrightnessDown" ] },
+				{ "pos": ".", "letters": [ "å", "Å", "?", "BrightnessUp" ] }
+			]
+		},
+		{
+			"shiftlevels": [ "None", "Extend" ],
+			"keys": [
+				{ "pos": "~", "letters": [ "@", "Power" ] },
+				{ "pos": "1", "letters": [ "1", "F1" ] },
+				{ "pos": "2", "letters": [ "2", "F2" ] },
+				{ "pos": "3", "letters": [ "3", "F3" ] },
+				{ "pos": "4", "letters": [ "4", "F4" ] },
+				{ "pos": "5", "letters": [ "5", "F5" ] },
+				{ "pos": "6", "letters": [ "6", "F6" ] },
+				{ "pos": "7", "letters": [ "7", "F7" ] },
+				{ "pos": "8", "letters": [ "8", "F8" ] },
+				{ "pos": "9", "letters": [ "9", "F9" ] },
+				{ "pos": "0", "letters": [ "0", "F10" ] },
+				{ "pos": "-", "letters": [ "~", "F11" ] },
+				{ "pos": "+", "letters": [ "`", "F12" ] },
+				{ "pos": "Space", "letters": [ " ", "Enter" ] }
+			]
+		},
+		{
+			"shiftlevels": [ "None", "Shift" ],
+			"keys": [
+				{ "pos": "Shift_L", "letters": [ "Shift_L", "CapsLock" ] },
+				{ "pos": "Shift_R", "letters": [ "Shift_R", "CapsLock" ] }
+			]
+		}
+	]
+}

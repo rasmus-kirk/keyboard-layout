@@ -1,9 +1,7 @@
 # My custom keyboard layout
 
-Compile using [klfc](https://github.com/39aldo39/klfc):
+Compiled using [klfc](https://github.com/39aldo39/klfc):
 
-`klfc --from-json zi.json --xkb zi_xkb`
-
-## Todo
-- Create map PrintScreen to meta-key
-- Run klfc with nix (probably need to do a nixpkgs PR, oh well)
+- Build with nix: `nix build github:rasmus-kirk/keyboard-layout`
+- Install my layout with nix (on a non-nixos system): `nix run github:rasmus-kirk/keyboard-layout`
+- Install the alternative Cetti layout with nix: `nix run github:rasmus-kirk/keyboard-layout#zi`

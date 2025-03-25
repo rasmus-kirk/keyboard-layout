@@ -1,77 +1,81 @@
 {
-	"fullName": "rk - Rasmus Kirk's Custom Layout",
-	"name": "rk",
-	"copyright": "Public Domain",
-	"version": "1.0",
-	"singletonKeys": [
-		[ "CapsLock", "AltGr" ],
-		[ "Iso", "Extend" ]
-	],
-	"keysWithShiftlevels": [
-		{
-			"shiftlevels": [ "None", "Shift", "AltGr", "Extend" ],
-			"keys": [
-				{ "pos": "~",  "letters": [ "`", "~",  "`",      "~"      ] },
-				{ "pos": "1",  "letters": [ "1", "!",  "1",      "!"      ] },
-				{ "pos": "2",  "letters": [ "2", "@",  "2",      "@"      ] },
-				{ "pos": "3",  "letters": [ "3", "#",  "3",      "#"      ] },
-				{ "pos": "4",  "letters": [ "4", "$",  "4",      "$"      ] },
-				{ "pos": "5",  "letters": [ "5", "%",  "5",      "%"      ] },
-				{ "pos": "6",  "letters": [ "6", "^",  "6",      "^"      ] },
-				{ "pos": "7",  "letters": [ "7", "&",  "7",      "&"      ] },
-				{ "pos": "8",  "letters": [ "8", "*",  "8",      "*"      ] },
-				{ "pos": "9",  "letters": [ "9", "(",  "9",      "("      ] },
-				{ "pos": "0",  "letters": [ "0", ")",  "0",      ")"      ] },
-				{ "pos": "-",  "letters": [ "-", "_",  "-",      "_"      ] },
-				{ "pos": "+",  "letters": [ "=", "+",  "=",      "+"      ] },
-				{ "pos": "Q",  "letters": [ "q", "Q",  "q",      "Q"      ] },
-				{ "pos": "W",  "letters": [ "w", "W",  "w",      "W"      ] },
-				{ "pos": "E",  "letters": [ "e", "E",  "e",      "E"      ] },
-				{ "pos": "R",  "letters": [ "r", "R",  "r",      "R"      ] },
-				{ "pos": "T",  "letters": [ "t", "T",  "t",      "T"      ] },
-				{ "pos": "Y",  "letters": [ "y", "Y",  "y",      "Y"      ] },
-				{ "pos": "U",  "letters": [ "u", "U",  "æ",      "Æ"      ] },
-				{ "pos": "I",  "letters": [ "i", "I",  "ø",      "Ø"      ] },
-				{ "pos": "O",  "letters": [ "o", "O",  "å",      "Å"      ] },
-				{ "pos": "P",  "letters": [ "p", "P",  "p",      "P"      ] },
-				{ "pos": "[",  "letters": [ "[", "{",  "[",      "{"      ] },
-				{ "pos": "]",  "letters": [ "]", "}",  "]",      "}"      ] },
-				{ "pos": "\\", "letters": [ "\\", "|", "\\",     "|"      ] },
-				{ "pos": "A",  "letters": [ "a", "A",  "a",      "A"      ] },
-				{ "pos": "S",  "letters": [ "s", "S",  "æ",      "Æ"      ] },
-				{ "pos": "D",  "letters": [ "d", "D",  "ø",      "Ø"      ] },
-				{ "pos": "F",  "letters": [ "f", "F",  "å",      "Å"      ] },
-				{ "pos": "G",  "letters": [ "g", "G",  "g",      "G"      ] },
-				{ "pos": "H",  "letters": [ "h", "H",  "Left",   "Left"   ] },
-				{ "pos": "J",  "letters": [ "j", "J",  "Down",   "Down"   ] },
-				{ "pos": "K",  "letters": [ "k", "K",  "Up",     "Up"     ] },
-				{ "pos": "L",  "letters": [ "l", "L",  "Right",  "Right"  ] },
-				{ "pos": ";",  "letters": [ ";", ":",  "Escape", "Escape" ] },
-				{ "pos": "'",  "letters": [ "'", "\"",  "'",     "\""     ] },
-				{ "pos": "Z",  "letters": [ "z", "Z",  "z",      "Z"      ] },
-				{ "pos": "X",  "letters": [ "x", "X",  "x",      "X"      ] },
-				{ "pos": "C",  "letters": [ "c", "C",  "c",      "C"      ] },
-				{ "pos": "V",  "letters": [ "v", "V",  "v",      "V"      ] },
-				{ "pos": "B",  "letters": [ "b", "B",  "b",      "B"      ] },
-				{ "pos": "N",  "letters": [ "n", "N",  "n",      "N"      ] },
-				{ "pos": "M",  "letters": [ "m", "M",  "m",      "M"      ] },
-				{ "pos": ",",  "letters": [ ",", "<",  ",",      "<"      ] },
-				{ "pos": ".",  "letters": [ ".", ">",  ".",      ">"      ] },
-				{ "pos": "/",  "letters": [ "/", "?",  "/",      "?"      ] }
-			]
-		},
-		{
-			"shiftlevels": [ "None", "Extend" ],
-			"keys": [
-				{ "pos": "Space", "letters": [ " ", "Enter" ] }
-			]
-		},
-		{
-			"shiftlevels": [ "None", "Shift" ],
-			"keys": [
-				{ "pos": "Shift_L", "letters": [ "Shift_L", "CapsLock" ] },
-				{ "pos": "Shift_R", "letters": [ "Shift_R", "CapsLock" ] }
-			]
-		}
-	]
+  "fullName": "rk - Rasmus Kirk's Custom Layout",
+  "name": "rk",
+  "copyright": "Public Domain",
+  "version": "1.0",
+  "singletonKeys": [
+    [ "CapsLock", "Extend" ]
+  ],
+  "keysWithShiftlevels": [
+    {
+      "shiftlevels": [ "None", "Shift" ],
+      "keys": [
+        { "pos": "~", "letters": [ "`", "~" ] },
+        { "pos": "1", "letters": [ "1", "!" ] },
+        { "pos": "2", "letters": [ "2", "@" ] },
+        { "pos": "3", "letters": [ "3", "#" ] },
+        { "pos": "4", "letters": [ "4", "$" ] },
+        { "pos": "5", "letters": [ "5", "%" ] },
+        { "pos": "6", "letters": [ "6", "^" ] },
+        { "pos": "7", "letters": [ "7", "&" ] },
+        { "pos": "8", "letters": [ "8", "*" ] },
+        { "pos": "9", "letters": [ "9", "(" ] },
+        { "pos": "0", "letters": [ "0", ")" ] },
+        { "pos": "-", "letters": [ "-", "_" ] },
+        { "pos": "+", "letters": [ "=", "+" ] },
+        { "pos": "Q", "letters": [ "q", "Q" ] },
+        { "pos": "W", "letters": [ "w", "W" ] },
+        { "pos": "E", "letters": [ "e", "E" ] },
+        { "pos": "R", "letters": [ "r", "R" ] },
+        { "pos": "T", "letters": [ "t", "T" ] },
+        { "pos": "Y", "letters": [ "y", "Y" ] },
+        { "pos": "P", "letters": [ "p", "P" ] },
+        { "pos": "[", "letters": [ "[", "{" ] },
+        { "pos": "]", "letters": [ "]", "}" ] },
+        { "pos": "\\", "letters": [ "\\", "|" ] },
+        { "pos": "A", "letters": [ "a", "A" ] },
+        { "pos": "G", "letters": [ "g", "G" ] },
+        { "pos": "'", "letters": [ "'", "\"" ] },
+        { "pos": "Z", "letters": [ "z", "Z" ] },
+        { "pos": "X", "letters": [ "x", "X" ] },
+        { "pos": "C", "letters": [ "c", "C" ] },
+        { "pos": "V", "letters": [ "v", "V" ] },
+        { "pos": "B", "letters": [ "b", "B" ] },
+        { "pos": "N", "letters": [ "n", "N" ] },
+        { "pos": "M", "letters": [ "m", "M" ] },
+        { "pos": ",", "letters": [ ",", "<" ] },
+        { "pos": ".", "letters": [ ".", ">" ] },
+        { "pos": "/", "letters": [ "/", "?" ] }
+      ]
+    },
+    {
+      "shiftlevels": [ "None", "Shift", "Extend", "Shift+Extend" ],
+      "keys": [
+        { "pos": "U",     "letters": [ "u", "U", "æ",      "Æ"      ] },
+        { "pos": "I",     "letters": [ "i", "I", "ø",      "Ø"      ] },
+        { "pos": "O",     "letters": [ "o", "O", "å",      "Å"      ] },
+        { "pos": "S",     "letters": [ "s", "S", "æ",      "Æ"      ] },
+        { "pos": "D",     "letters": [ "d", "D", "ø",      "Ø"      ] },
+        { "pos": "F",     "letters": [ "f", "F", "å",      "Å"      ] }
+      ]
+    },
+    {
+      "shiftlevels": [ "None", "Shift", "Extend" ],
+      "keys": [
+        { "pos": "H",     "letters": [ "h", "H", "Left"   ] },
+        { "pos": "J",     "letters": [ "j", "J", "Down"   ] },
+        { "pos": "K",     "letters": [ "k", "K", "Up"     ] },
+        { "pos": "L",     "letters": [ "l", "L", "Right"  ] },
+        { "pos": ";",     "letters": [ ";", ":", "Escape" ] },
+        { "pos": "Space", "letters": [ " ", " ", "Enter"  ] }
+      ]
+    },
+    {
+      "shiftlevels": [ "None", "Shift" ],
+      "keys": [
+        { "pos": "Shift_L", "letters": [ "Shift_L", "CapsLock" ] },
+        { "pos": "Shift_R", "letters": [ "Shift_R", "CapsLock" ] }
+      ]
+    }
+  ]
 }
