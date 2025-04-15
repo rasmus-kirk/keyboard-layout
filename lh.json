@@ -1,10 +1,11 @@
 {
-  "fullName": "rk - Rasmus Kirk's Custom Layout",
-  "name": "rk",
+  "fullName": "lh - Lasse Bomholt's Custom Layout",
+  "name": "lh",
   "copyright": "Public Domain",
   "version": "1.0",
   "singletonKeys": [
-    [ "CapsLock", "Extend" ]
+    [ "CapsLock", "Alt" ],
+    [ "Iso", "Extend" ]
   ],
   "keysWithShiftlevels": [
     {
@@ -45,19 +46,18 @@
         { "pos": "M", "letters": [ "m", "M" ] },
         { "pos": ",", "letters": [ ",", "<" ] },
         { "pos": ".", "letters": [ ".", ">" ] },
-        { "pos": "/", "letters": [ "/", "?" ] },
-        { "pos": "Space", "letters": [ " ", " ", " " ] }
+        { "pos": "/", "letters": [ "/", "?" ] }
       ]
     },
     {
       "shiftlevels": [ "None", "Shift", "Extend", "Shift+Extend" ],
       "keys": [
-        { "pos": "U",     "letters": [ "u", "U", "æ", "Æ"  ] },
-        { "pos": "I",     "letters": [ "i", "I", "ø", "Ø"  ] },
-        { "pos": "O",     "letters": [ "o", "O", "å", "Å"  ] },
-        { "pos": "S",     "letters": [ "s", "S", "æ", "Æ"  ] },
-        { "pos": "D",     "letters": [ "d", "D", "ø", "Ø"  ] },
-        { "pos": "F",     "letters": [ "f", "F", "å", "Å"  ] }
+        { "pos": "U",     "letters": [ "u", "U", "æ",      "Æ"      ] },
+        { "pos": "I",     "letters": [ "i", "I", "ø",      "Ø"      ] },
+        { "pos": "O",     "letters": [ "o", "O", "å",      "Å"      ] },
+        { "pos": "S",     "letters": [ "s", "S", "æ",      "Æ"      ] },
+        { "pos": "D",     "letters": [ "d", "D", "ø",      "Ø"      ] },
+        { "pos": "F",     "letters": [ "f", "F", "å",      "Å"      ] }
       ]
     },
     {
@@ -67,7 +67,8 @@
         { "pos": "J",     "letters": [ "j", "J", "Down"   ] },
         { "pos": "K",     "letters": [ "k", "K", "Up"     ] },
         { "pos": "L",     "letters": [ "l", "L", "Right"  ] },
-        { "pos": ";",     "letters": [ ";", ":", "Escape" ] }
+        { "pos": ";",     "letters": [ ";", ":", "Escape" ] },
+        { "pos": "Space", "letters": [ " ", " ", "Enter"  ] }
       ]
     },
     {

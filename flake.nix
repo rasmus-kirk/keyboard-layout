@@ -46,12 +46,27 @@
 
           # Make a wrapper script, so we can run `nix run`
           mkdir $out/bin
-          ln -s "$out/install-system.sh" "$out/bin/${name}" 
+          echo -e "#!/usr/bin/env bash\ncd $out; ./install-system.sh" > "$out/bin/${name}"
+          chmod 555 $out/bin/${name}
+        '';
+      };
+      lh = pkgs.stdenv.mkDerivation rec {
+        name = "lh";
+        src = ./.;
+        buildInputs = [ klfcPkg ];
+        phases = ["unpackPhase" "buildPhase"];
+        buildPhase = ''
+          mkdir -p $out
+          ${pkgs.lib.getExe klfcPkg} --from-json ${./lh.json} --xkb "$out"
+
+          # Make a wrapper script, so we can run `nix run`
+          mkdir $out/bin
+          echo -e "#!/usr/bin/env bash\ncd $out; ./install-system.sh" > "$out/bin/${name}"
+          chmod 555 $out/bin/${name}
         '';
       };
       in {
-        rk = rk;
-        zi = zi;
+        inherit rk zi lh;
         default = rk;
       });
   };
